@@ -6,10 +6,10 @@ const colors = {
   grey: "#0a0a23",
   white: "#ffffff",
   accentColors: {
-    purple: "#dbb8ff",
-    yellow: "#f1be32",
-    blue: "#99c9ff",
-    green: "#acd157",
+    purple: "#5a01a7",
+    yellow: "#4d3800",
+    blue: "#002ead",
+    green: "#00471b",
     red: "#ff0000",
   },
 };
