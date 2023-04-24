@@ -33,7 +33,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
     color: "accentColors.yellow",
   },
   {
-    title: "Learn Debugging TBA(new project still be decided)",
+    title: "Learn Debugging TBA",
     status: "Needs Prototype",
     color: "accentColors.red",
   },
