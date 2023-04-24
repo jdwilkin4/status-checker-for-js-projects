@@ -1,7 +1,7 @@
 type Status =
   | "Complete"
   | "In Review"
-  | "WIP Steps & Tests"
+  | "WIP Steps"
   | "WIP Prototype"
   | "Needs Prototype";
 

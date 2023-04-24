@@ -39,7 +39,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Recursion by Building a Decimal to Binary Converter",
-    status: "WIP Steps & Tests",
+    status: "WIP Steps",
     color: "accentColors.blue",
   },
   {
@@ -59,7 +59,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Functional Programming by Building a Spreadsheet",
-    status: "WIP Steps & Tests",
+    status: "WIP Steps",
     color: "accentColors.blue",
   },
   {
@@ -101,7 +101,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   {
     title:
       "Learn Intermediate Fetch, Promises, and Async / Await by Building an fCC Forum Leaderboard",
-    status: "WIP Steps & Tests",
+    status: "WIP Steps",
     color: "accentColors.blue",
   },
   {

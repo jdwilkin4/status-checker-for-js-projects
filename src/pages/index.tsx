@@ -20,7 +20,7 @@ const Home: NextPage = () => {
             {title}
           </Heading>
         </Center>
-        <Flex alignItems="center" gap="2" wrap="wrap">
+        <Flex justifyContent="center" alignItems="center" gap="6" wrap="wrap">
           {PROJECT_STATUS_LIST.map(({ title, status, color }) => (
             <ProjectCard
               key={title}

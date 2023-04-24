@@ -1,23 +1,37 @@
-import { Box, Text, Tag, TagLabel } from "@chakra-ui/react";
+import { Flex, Text, Link, Tag, TagLabel } from "@chakra-ui/react";
 import { CardLabels } from "../types";
-import Link from "next/link";
+
+import NextLink from "next/link";
 
 export const ProjectCard = ({ status, title, color }: CardLabels) => {
   return (
-    <Box w="lg" backgroundColor="white">
-      <Text fontSize="2xl" color="grey">
-        {title}
+    <Flex
+      justifyContent="center"
+      direction="column"
+      h="40"
+      w="lg"
+      p="4"
+      backgroundColor="white"
+    >
+      <Text textAlign="center" fontSize="2xl">
+        <NextLink href="/" passHref>
+          <Link color="grey">{title}</Link>
+        </NextLink>
       </Text>
 
       <Tag
+        margin="auto"
+        marginTop="2"
+        w="36"
         size="md"
-        key="md"
         borderRadius="full"
         variant="solid"
         backgroundColor={color}
       >
-        <TagLabel>{status}</TagLabel>
+        <TagLabel margin="auto" fontSize="md">
+          {status}
+        </TagLabel>
       </Tag>
-    </Box>
+    </Flex>
   );
 };
