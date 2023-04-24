@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       </Head>
       <Box bg="grey">
         <Center>
-          <Heading role="heading" as="h1" color="white" mt={8} p={4}>
+          <Heading role="heading" as="h1" color="white" my={8} p={4}>
             {title}
           </Heading>
         </Center>
