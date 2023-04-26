@@ -19,8 +19,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn the Date Object By Building a Date Formatter",
-    status: "WIP Prototype",
-    color: "accentColors.purple",
+    status: "WIP Steps",
+    color: "accentColors.blue",
   },
   {
     title: "Palidrome Checker",
@@ -29,11 +29,11 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Modern JavaScript Methods by Building Sports Team Cards",
-    status: "In Review",
-    color: "accentColors.yellow",
+    status: "Complete",
+    color: "accentColors.green",
   },
   {
-    title: "Learn Debugging TBA",
+    title: "Learn Debugging TODO List App",
     status: "Needs Prototype",
     color: "accentColors.red",
   },
