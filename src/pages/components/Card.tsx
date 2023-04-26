@@ -14,7 +14,7 @@ export const ProjectCard = ({ status, title, color }: CardLabels) => {
       backgroundColor="white"
     >
       <Text textAlign="center" fontSize="2xl">
-        <NextLink href="/" passHref>
+        <NextLink href={`/projects/${title.split(" ").join("-")}`} passHref>
           <Link color="grey">{title}</Link>
         </NextLink>
       </Text>
