@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { ProjectTemplate } from "../components/ProjectTemplate";
+import { ProjectTemplate } from "../../components/ProjectTemplate";
 
 const RPGGame: NextPage = () => {
   return (

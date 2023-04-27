@@ -1,5 +1,5 @@
 import { Flex, Text, Link, Tag, TagLabel } from "@chakra-ui/react";
-import { CardLabels } from "../types";
+import { CardLabels } from "../pages/types";
 
 import NextLink from "next/link";
 

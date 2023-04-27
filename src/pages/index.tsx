@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { Heading, Box, Center, Flex } from "@chakra-ui/react";
-import { ProjectCard } from "./components/Card";
+import { ProjectCard } from "../components/Card";
 import { PROJECT_STATUS_LIST } from "../constants";
 
 const Home: NextPage = () => {
