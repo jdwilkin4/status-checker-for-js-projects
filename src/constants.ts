@@ -112,6 +112,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
 ];
 
 export const LIST_OF_CONCEPTS_TAUGHT = [
+  "array",
   "arr.concat()",
   "arr.every()",
   "arr.fill()",
