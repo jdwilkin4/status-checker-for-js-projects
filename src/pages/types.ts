@@ -1,3 +1,5 @@
+import { LIST_OF_CONCEPTS_TAUGHT } from "../constants";
+
 type Status =
   | "Complete"
   | "In Review"
@@ -17,3 +19,5 @@ export type CardLabels = {
   status: Status;
   color: AccentColors;
 };
+
+export type ConceptsArr = typeof LIST_OF_CONCEPTS_TAUGHT[number][];

@@ -293,4 +293,4 @@ export const LIST_OF_CONCEPTS_TAUGHT = [
   "settimeout()",
   "alert",
   "confirm",
-];
+] as const;

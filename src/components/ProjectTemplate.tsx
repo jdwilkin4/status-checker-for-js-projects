@@ -8,12 +8,16 @@ import {
   ListItem,
   ListIcon,
 } from "@chakra-ui/react";
-
+import { LIST_OF_CONCEPTS_TAUGHT } from "../constants";
+import { ConceptsArr } from "../pages/types";
 import NextLink from "next/link";
 
-type Props = { title: string };
+type Props = {
+  title: string;
+  conceptsArr: ConceptsArr;
+};
 
-export const ProjectTemplate = ({ title }: Props) => {
+export const ProjectTemplate = ({ title, conceptsArr }: Props) => {
   return (
     <Box textAlign="center" color="white" bg="grey">
       <Heading role="heading" as="h1">
@@ -25,10 +29,12 @@ export const ProjectTemplate = ({ title }: Props) => {
       </Heading>
 
       <List my={8} spacing={3}>
-        <ListItem fontSize="2xl">
-          <ListIcon as={CheckIcon} color="green.500" />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit
-        </ListItem>
+        {conceptsArr.map((concept, index) => (
+          <ListItem key={`${concept}${index}`} fontSize="2xl">
+            <ListIcon as={CheckIcon} color="green.500" />
+            {concept}
+          </ListItem>
+        ))}
       </List>
 
       <Text fontSize="2xl">
