@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { ConceptsArr } from "../pages/types";
 import NextLink from "next/link";
+import { HomeLink } from "./HomeLink";
 
 type Props = {
   title: string;
@@ -39,11 +40,7 @@ export const ProjectTemplate = ({ title, conceptsArr }: Props) => {
         </Grid>
       </List>
 
-      <Text fontSize="2xl">
-        <NextLink href="/" passHref>
-          <Link>Return Home</Link>
-        </NextLink>
-      </Text>
+      <HomeLink />
     </Box>
   );
 };
