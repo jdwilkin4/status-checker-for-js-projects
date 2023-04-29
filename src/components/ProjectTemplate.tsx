@@ -7,8 +7,8 @@ import {
   List,
   ListItem,
   ListIcon,
+  Grid,
 } from "@chakra-ui/react";
-import { LIST_OF_CONCEPTS_TAUGHT } from "../constants";
 import { ConceptsArr } from "../pages/types";
 import NextLink from "next/link";
 
@@ -29,12 +29,14 @@ export const ProjectTemplate = ({ title, conceptsArr }: Props) => {
       </Heading>
 
       <List my={8} spacing={3}>
-        {conceptsArr.map((concept, index) => (
-          <ListItem key={`${concept}${index}`} fontSize="2xl">
-            <ListIcon as={CheckIcon} color="green.500" />
-            {concept}
-          </ListItem>
-        ))}
+        <Grid templateColumns="repeat(2, 1fr)" gap={6}>
+          {conceptsArr.map((concept, index) => (
+            <ListItem key={`${concept}-${index}`} fontSize="2xl">
+              <ListIcon as={CheckIcon} color="green.500" />
+              {concept}
+            </ListItem>
+          ))}
+        </Grid>
       </List>
 
       <Text fontSize="2xl">
