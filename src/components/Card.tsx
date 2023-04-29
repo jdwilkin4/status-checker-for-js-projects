@@ -1,9 +1,14 @@
-import { Flex, Text, Link, Tag, TagLabel } from "@chakra-ui/react";
+import { Flex, Text, Link, Tag, TagLabel, Center } from "@chakra-ui/react";
 import { CardLabels } from "../pages/types";
 
 import NextLink from "next/link";
 
-export const ProjectCard = ({ status, title, color }: CardLabels) => {
+export const ProjectCard = ({
+  status,
+  title,
+  color,
+  isCertification,
+}: CardLabels) => {
   return (
     <Flex
       justifyContent="center"
@@ -13,6 +18,12 @@ export const ProjectCard = ({ status, title, color }: CardLabels) => {
       p="4"
       backgroundColor="white"
     >
+      {isCertification && (
+        <Center>
+          <Text>Certification project</Text>
+        </Center>
+      )}
+
       <Text textAlign="center" fontSize="2xl">
         <NextLink href={`/projects/${title.split(" ").join("-")}`} passHref>
           <Link color="grey">{title}</Link>

@@ -18,6 +18,7 @@ export type CardLabels = {
   title: string;
   status: Status;
   color: AccentColors;
+  isCertification?: boolean;
 };
 
 export type ConceptsArr = typeof LIST_OF_CONCEPTS_TAUGHT[number][];

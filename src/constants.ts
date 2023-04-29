@@ -26,6 +26,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
     title: "Palidrome Checker",
     status: "Needs Prototype",
     color: "accentColors.red",
+    isCertification: true,
   },
   {
     title: "Learn Modern JavaScript Methods by Building Sports Team Cards",
@@ -46,6 +47,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
     title: "Roman Numeral Converter",
     status: "Needs Prototype",
     color: "accentColors.red",
+    isCertification: true,
   },
   {
     title: "Learn Basic Algorithmic Thinking by Building a Number Sorter",
@@ -71,6 +73,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
     title: "Telephone Number Validator",
     status: "Needs Prototype",
     color: "accentColors.red",
+    isCertification: true,
   },
   {
     title:
@@ -92,6 +95,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
     title: "Cash Register",
     status: "Needs Prototype",
     color: "accentColors.red",
+    isCertification: true,
   },
   {
     title: "Learn Fetch and Promises by Building an fCC Authors Page",
@@ -108,6 +112,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
     title: "Random Quote Machine",
     status: "Needs Prototype",
     color: "accentColors.red",
+    isCertification: true,
   },
 ];
 
