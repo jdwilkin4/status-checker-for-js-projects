@@ -100,3 +100,26 @@ export const calorieCounter: ConceptsArr = [
 ];
 
 export const musicPlayer: ConceptsArr = [];
+export const dateFormatter: ConceptsArr = [
+  "const",
+  "document.getElementById()",
+  "Assignment: =",
+  "new Date()",
+  "date.getDate()",
+  "date.getMonth()",
+  "date.getFullYear()",
+  "date.getHours()",
+  "date.getMinutes()",
+  "Intl.DateTimeFormat",
+  "Template literal",
+  "el.textContent",
+  "el.addEventListener()",
+  "change",
+  "el.value",
+  "switch",
+  "Basic string usage (single or double quotes, backticks)",
+  "str.split()",
+  "arr.reverse()",
+  "arr.join()",
+  "Basic object usage ",
+];
