@@ -1,7 +1,6 @@
-import { Flex, Text, Link, Tag, TagLabel, Center } from "@chakra-ui/react";
+import { Flex, Text, Tag, TagLabel, Center } from "@chakra-ui/react";
 import { CardLabels } from "../pages/types";
 import { CustomLink } from "./CustomLink";
-import NextLink from "next/link";
 
 export const ProjectCard = ({
   status,
