@@ -98,3 +98,5 @@ export const calorieCounter: ConceptsArr = [
   "click",
   "submit",
 ];
+
+export const musicPlayer: ConceptsArr = [];

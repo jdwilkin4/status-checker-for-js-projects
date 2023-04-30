@@ -13,7 +13,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title:
-      "Learn Basic String and Array Methods by Building a Music Playlist App ",
+      "Learn Basic String and Array Methods by Building a Music Playlist App",
     status: "WIP Prototype",
     color: "accentColors.purple",
     assigned: "Rafael",

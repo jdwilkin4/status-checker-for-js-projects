@@ -7,6 +7,8 @@ import {
   ListIcon,
   Grid,
   useMediaQuery,
+  Center,
+  Text,
 } from "@chakra-ui/react";
 import { ConceptsArr } from "../pages/types";
 
@@ -30,15 +32,24 @@ export const ProjectTemplate = ({ title, conceptsArr }: Props) => {
         Concepts Covered
       </Heading>
 
-      <List my={8} spacing={3}>
-        {isTabletSizeOrLarger ? (
-          <Grid templateColumns="repeat(2, 1fr)" gap={6}>
+      {conceptsArr.length ? (
+        <List my={8} spacing={3}>
+          {isTabletSizeOrLarger ? (
+            <Grid templateColumns="repeat(2, 1fr)" gap={6}>
+              <ListItems conceptsArr={conceptsArr} />
+            </Grid>
+          ) : (
             <ListItems conceptsArr={conceptsArr} />
-          </Grid>
-        ) : (
-          <ListItems conceptsArr={conceptsArr} />
-        )}
-      </List>
+          )}
+        </List>
+      ) : (
+        <Center>
+          <Text fontSize="2xl">
+            Prototype currently being built out. Final list of concepts coming
+            soon.
+          </Text>
+        </Center>
+      )}
 
       <HomeLink />
     </Box>
