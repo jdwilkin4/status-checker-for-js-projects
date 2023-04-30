@@ -16,17 +16,20 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
       "Learn Basic String and Array Methods by Building a Music Playlist App ",
     status: "WIP Prototype",
     color: "accentColors.purple",
+    assigned: "Rafael",
   },
   {
     title: "Learn the Date Object By Building a Date Formatter",
     status: "WIP Steps",
     color: "accentColors.blue",
+    assigned: "Joy",
   },
   {
     title: "Palidrome Checker",
-    status: "Needs Prototype",
-    color: "accentColors.red",
+    status: "WIP Prototype",
+    color: "accentColors.purple",
     isCertification: true,
+    assigned: "Estefania",
   },
   {
     title: "Learn Modern JavaScript Methods by Building Sports Team Cards",
@@ -42,12 +45,14 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
     title: "Learn Recursion by Building a Decimal to Binary Converter",
     status: "WIP Steps",
     color: "accentColors.blue",
+    assigned: "Kris",
   },
   {
     title: "Roman Numeral Converter",
-    status: "Needs Prototype",
-    color: "accentColors.red",
+    status: "WIP Prototype",
+    color: "accentColors.purple",
     isCertification: true,
+    assigned: "Estefania",
   },
   {
     title: "Learn Basic Algorithmic Thinking by Building a Number Sorter",
@@ -63,6 +68,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
     title: "Learn Functional Programming by Building a Spreadsheet",
     status: "WIP Steps",
     color: "accentColors.blue",
+    assigned: "Naomi",
   },
   {
     title: "Learn Regular Expressions by Building a Spam Filter",
@@ -71,9 +77,10 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Telephone Number Validator",
-    status: "Needs Prototype",
-    color: "accentColors.red",
+    status: "WIP Prototype",
+    color: "accentColors.purple",
     isCertification: true,
+    assigned: "Estefania",
   },
   {
     title:
@@ -83,19 +90,22 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Intermediate OOP by Building a Platformer Game",
-    status: "WIP Steps",
-    color: "accentColors.blue",
+    status: "Needs Steps",
+    color: "accentColors.red",
+    assigned: "Available to pick up",
   },
   {
     title: "Learn Intermediate Algorithmic Thinking by Building a Dice Game",
     status: "WIP Prototype",
     color: "accentColors.purple",
+    assigned: "Joy",
   },
   {
     title: "Cash Register",
-    status: "Needs Prototype",
-    color: "accentColors.red",
+    status: "WIP Prototype",
+    color: "accentColors.purple",
     isCertification: true,
+    assigned: "Estefania",
   },
   {
     title: "Learn Fetch and Promises by Building an fCC Authors Page",
@@ -107,12 +117,14 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
       "Learn Intermediate Fetch, Promises, and Async / Await by Building an fCC Forum Leaderboard",
     status: "WIP Steps",
     color: "accentColors.blue",
+    assigned: "Joy",
   },
   {
     title: "Random Quote Machine",
-    status: "Needs Prototype",
-    color: "accentColors.red",
+    status: "WIP Prototype",
+    color: "accentColors.purple",
     isCertification: true,
+    assigned: "Estefania",
   },
 ];
 

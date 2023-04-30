@@ -8,6 +8,7 @@ export const ProjectCard = ({
   title,
   color,
   isCertification,
+  assigned,
 }: CardLabels) => {
   return (
     <Flex
@@ -29,6 +30,12 @@ export const ProjectCard = ({
           <Link color="grey">{title}</Link>
         </NextLink>
       </Text>
+
+      {assigned && assigned !== "Available to pick up" && (
+        <Center>
+          <Text fontSize="xl">Assigned: {assigned}</Text>
+        </Center>
+      )}
 
       <Tag
         margin="auto"

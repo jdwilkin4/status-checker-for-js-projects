@@ -22,13 +22,14 @@ const Home: NextPage = () => {
         </Center>
         <Flex justifyContent="center" alignItems="center" gap="6" wrap="wrap">
           {PROJECT_STATUS_LIST.map(
-            ({ title, status, color, isCertification }) => (
+            ({ title, status, color, isCertification, assigned }) => (
               <ProjectCard
                 key={title}
                 title={title}
                 status={status}
                 color={color}
                 isCertification={isCertification}
+                assigned={assigned}
               />
             )
           )}
