@@ -154,3 +154,34 @@ export const palindromeChecker: ConceptsArr = [
   "el.classList",
   "el.addEventListener()",
 ];
+
+export const footballTeamCards: ConceptsArr = [
+  "const",
+  "document.getElementById()",
+  "Assignment: =",
+  "Basic string usage (single or double quotes, backticks)",
+  "Basic object usage ",
+  "boolean",
+  "Object.freeze()",
+  "Dot notation",
+  "Destructuring assignment",
+  "el.innerHTML",
+  "Default parameters",
+  "Arrow function",
+  "arr.map()",
+  "Template literal",
+  "arr.filter()",
+  "Compound assignment: +=",
+  "Ternary operator",
+  "Strict inequality: !==",
+  "null",
+  "Strict equality: ===",
+  "change",
+  "el.addEventListener()",
+  "el.value",
+  "switch",
+  "invoke function",
+];
+
+export const todoListApp: ConceptsArr = [];
+export const recursionProject: ConceptsArr = [];

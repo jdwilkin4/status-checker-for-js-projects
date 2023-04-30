@@ -35,7 +35,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
     assigned: "Estefania",
   },
   {
-    title: "Learn Modern JavaScript Methods by Building Sports Team Cards",
+    title: "Learn Modern JavaScript Methods by Building Football Team Cards",
     status: "Complete",
     color: "accentColors.green",
   },

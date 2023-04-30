@@ -9,12 +9,10 @@ import {
   useMediaQuery,
   Center,
   Text,
-  Link,
 } from "@chakra-ui/react";
 import { ConceptsArr } from "../pages/types";
 import { HomeLink } from "./HomeLink";
 import { CustomLink } from "./CustomLink";
-import NextLink from "next/link";
 
 type Props = {
   title?: string;
