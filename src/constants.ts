@@ -51,8 +51,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Basic Algorithmic Thinking by Building a Number Sorter",
-    status: "In Review",
-    color: "accentColors.yellow",
+    status: "Complete",
+    color: "accentColors.green",
   },
   {
     title: "Learn Advanced Array Methods by Building a Statistics Calculator",
@@ -99,8 +99,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Fetch and Promises by Building an fCC Authors Page",
-    status: "In Review",
-    color: "accentColors.yellow",
+    status: "Complete",
+    color: "accentColors.green",
   },
   {
     title:
