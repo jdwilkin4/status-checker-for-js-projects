@@ -309,8 +309,11 @@ export const LIST_OF_CONCEPTS_TAUGHT = [
   "Initializing with a value (string, number, etc.)",
   "let",
   "var",
+  "boolean",
   "location.reload()",
   "settimeout()",
   "alert",
   "confirm",
+  "insertAdjacentHTML",
+  "Math.abs()",
 ] as const;
