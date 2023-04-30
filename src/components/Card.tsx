@@ -1,6 +1,6 @@
 import { Flex, Text, Link, Tag, TagLabel, Center } from "@chakra-ui/react";
 import { CardLabels } from "../pages/types";
-
+import { CustomLink } from "./CustomLink";
 import NextLink from "next/link";
 
 export const ProjectCard = ({
@@ -25,11 +25,12 @@ export const ProjectCard = ({
         </Center>
       )}
 
-      <Text textAlign="center" fontSize="2xl">
-        <NextLink href={`/projects/${title.split(" ").join("-")}`} passHref>
-          <Link color="grey">{title}</Link>
-        </NextLink>
-      </Text>
+      <CustomLink
+        link={`/projects/${title.split(" ").join("-")}`}
+        title={title}
+        isExternalLink={false}
+        color="grey"
+      />
 
       {assigned && assigned !== "Available to pick up" && (
         <Center>

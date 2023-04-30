@@ -1,5 +1,8 @@
 import { CardLabels } from "./pages/types";
 
+export const USER_STORIES: string =
+  "https://docs.google.com/document/d/14A41-gH6ojYigv2fLa211JkvZ1hyjQ-cjXXfHgWfdc0/edit#";
+
 export const PROJECT_STATUS_LIST: CardLabels[] = [
   {
     title: "Learn Basic JavaScript by Building a Role Playing Game",
@@ -25,7 +28,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
     assigned: "Joy",
   },
   {
-    title: "Palidrome Checker",
+    title: "Palindrome Checker",
     status: "WIP Prototype",
     color: "accentColors.purple",
     isCertification: true,

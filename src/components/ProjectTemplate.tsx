@@ -9,17 +9,26 @@ import {
   useMediaQuery,
   Center,
   Text,
+  Link,
 } from "@chakra-ui/react";
 import { ConceptsArr } from "../pages/types";
-
 import { HomeLink } from "./HomeLink";
+import { CustomLink } from "./CustomLink";
+import NextLink from "next/link";
 
 type Props = {
   title?: string;
   conceptsArr: ConceptsArr;
+  sampleLink?: string;
+  userStories?: string;
 };
 
-export const ProjectTemplate = ({ title, conceptsArr }: Props) => {
+export const ProjectTemplate = ({
+  title,
+  conceptsArr,
+  userStories,
+  sampleLink,
+}: Props) => {
   const [isTabletSizeOrLarger] = useMediaQuery("(min-width: 768px)");
 
   return (
@@ -28,9 +37,27 @@ export const ProjectTemplate = ({ title, conceptsArr }: Props) => {
         {title}
       </Heading>
 
-      <Heading mt={4} role="heading" as="h2">
+      <Heading my={4} role="heading" as="h2">
         Concepts Covered
       </Heading>
+
+      {sampleLink && (
+        <CustomLink
+          color="white"
+          title=" View Sample"
+          isExternalLink={true}
+          link={sampleLink}
+        />
+      )}
+
+      {userStories && (
+        <CustomLink
+          color="white"
+          title="   View User Stories"
+          isExternalLink={true}
+          link={userStories}
+        />
+      )}
 
       {conceptsArr.length ? (
         <List my={8} spacing={3}>
