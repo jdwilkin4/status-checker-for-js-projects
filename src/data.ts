@@ -185,3 +185,16 @@ export const footballTeamCards: ConceptsArr = [
 
 export const todoListApp: ConceptsArr = [];
 export const recursionProject: ConceptsArr = [];
+export const romanNumeralConverter: ConceptsArr = [];
+export const numberSorter: ConceptsArr = [];
+export const statsCalculator: ConceptsArr = [];
+export const spreadsheetProject: ConceptsArr = [];
+export const spamFilter: ConceptsArr = [];
+export const telephoneValidator: ConceptsArr = [];
+export const shoppingCart: ConceptsArr = [];
+export const platformerGamer: ConceptsArr = [];
+export const diceGame: ConceptsArr = [];
+export const cashRegister: ConceptsArr = [];
+export const fccAuthorsPage: ConceptsArr = [];
+export const fccForumLeaderboard: ConceptsArr = [];
+export const randomQuoteMachine: ConceptsArr = [];
