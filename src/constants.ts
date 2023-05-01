@@ -87,7 +87,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title:
-      "Learn Data Structures / Basic OOP Concepts by Building a Shopping Cart",
+      "Learn Data Structures Basic OOP Concepts by Building a Shopping Cart",
     status: "Complete",
     color: "accentColors.green",
   },
@@ -117,7 +117,7 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title:
-      "Learn Intermediate Fetch, Promises, and Async / Await by Building an fCC Forum Leaderboard",
+      "Learn Intermediate Fetch Promises and Async Await by Building an fCC Forum Leaderboard",
     status: "WIP Steps",
     color: "accentColors.blue",
     assigned: "Joy",
