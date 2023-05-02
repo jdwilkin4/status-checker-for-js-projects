@@ -10,7 +10,7 @@ import {
   Center,
   Text,
 } from "@chakra-ui/react";
-import { ConceptsArr } from "../pages/types";
+import { ConceptsArr } from "../types";
 import { HomeLink } from "./HomeLink";
 import { CustomLink } from "./CustomLink";
 

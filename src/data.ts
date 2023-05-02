@@ -1,4 +1,4 @@
-import { ConceptsArr } from "./pages/types";
+import { ConceptsArr } from "./types";
 
 export const rpgGameConcepts: ConceptsArr = [
   "<script> with the `src` attribute",

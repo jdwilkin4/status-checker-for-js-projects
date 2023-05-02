@@ -1,4 +1,4 @@
-import { LIST_OF_CONCEPTS_TAUGHT } from "../constants";
+import { LIST_OF_CONCEPTS_TAUGHT } from "./constants";
 
 type Status =
   | "Complete"

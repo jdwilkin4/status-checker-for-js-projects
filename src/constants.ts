@@ -1,4 +1,4 @@
-import { CardLabels } from "./pages/types";
+import { CardLabels } from "./types";
 
 export const USER_STORIES: string =
   "https://docs.google.com/document/d/14A41-gH6ojYigv2fLa211JkvZ1hyjQ-cjXXfHgWfdc0/edit#";

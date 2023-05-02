@@ -1,5 +1,5 @@
 import { Flex, Text, Tag, TagLabel, Center } from "@chakra-ui/react";
-import { CardLabels } from "../pages/types";
+import { CardLabels } from "../types";
 import { CustomLink } from "./CustomLink";
 
 export const ProjectCard = ({
