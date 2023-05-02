@@ -19,6 +19,7 @@ type Props = {
   conceptsArr: ConceptsArr;
   sampleLink?: string;
   userStories?: string;
+  PRLink?: string;
 };
 
 export const ProjectTemplate = ({
@@ -26,6 +27,7 @@ export const ProjectTemplate = ({
   conceptsArr,
   userStories,
   sampleLink,
+  PRLink,
 }: Props) => {
   const [isTabletSizeOrLarger] = useMediaQuery("(min-width: 768px)");
 
@@ -39,10 +41,19 @@ export const ProjectTemplate = ({
         Concepts Covered
       </Heading>
 
+      {PRLink && (
+        <CustomLink
+          color="white"
+          title="Link to PR"
+          isExternalLink={true}
+          link={PRLink}
+        />
+      )}
+
       {sampleLink && (
         <CustomLink
           color="white"
-          title=" View Sample"
+          title="View Sample"
           isExternalLink={true}
           link={sampleLink}
         />
@@ -51,7 +62,7 @@ export const ProjectTemplate = ({
       {userStories && (
         <CustomLink
           color="white"
-          title="   View User Stories"
+          title="View User Stories"
           isExternalLink={true}
           link={userStories}
         />
@@ -69,10 +80,7 @@ export const ProjectTemplate = ({
         </List>
       ) : (
         <Center>
-          <Text fontSize="2xl">
-            Prototype currently being built out. Final list of concepts coming
-            soon.
-          </Text>
+          <Text fontSize="2xl">Final list of concepts coming soon.</Text>
         </Center>
       )}
 
