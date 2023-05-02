@@ -323,4 +323,6 @@ export const LIST_OF_CONCEPTS_TAUGHT = [
   "confirm",
   "insertAdjacentHTML",
   "Math.abs()",
+  "getElementsByTagName",
+  "console.error",
 ] as const;
