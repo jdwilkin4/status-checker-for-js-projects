@@ -94,9 +94,9 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Intermediate OOP by Building a Platformer Game",
-    status: "Needs Steps",
-    color: "accentColors.red",
-    assigned: "Available to pick up",
+    status: "WIP Steps",
+    color: "accentColors.blue",
+    assigned: "Jessica",
   },
   {
     title: "Learn Intermediate Algorithmic Thinking by Building a Dice Game",
