@@ -6,6 +6,7 @@ const DateFormatter: NextPage = () => (
   <ProjectTemplate
     conceptsArr={dateFormatter}
     title="Learn the Date Object By Building a Date Formatter"
+    PRLink="https://github.com/freeCodeCamp/freeCodeCamp/pull/50504"
   />
 );
 

@@ -6,6 +6,7 @@ const PlatformerGame: NextPage = () => (
   <ProjectTemplate
     conceptsArr={platformerGamer}
     title="Learn Intermediate OOP by Building a Platformer Game"
+    PRLink="https://github.com/freeCodeCamp/freeCodeCamp/pull/50385"
   />
 );
 
