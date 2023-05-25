@@ -23,8 +23,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn the Date Object By Building a Date Formatter",
-    status: "WIP Steps",
-    color: "accentColors.blue",
+    status: "In Review",
+    color: "accentColors.red",
     assigned: "Joy",
   },
   {
@@ -47,8 +47,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Recursion by Building a Decimal to Binary Converter",
-    status: "WIP Steps",
-    color: "accentColors.blue",
+    status: "In Review",
+    color: "accentColors.red",
     assigned: "Kris",
   },
   {
@@ -119,8 +119,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   {
     title:
       "Learn Intermediate Fetch Promises and Async Await by Building an fCC Forum Leaderboard",
-    status: "WIP Steps",
-    color: "accentColors.blue",
+    status: "In Review",
+    color: "accentColors.red",
     assigned: "Joy",
   },
   {
