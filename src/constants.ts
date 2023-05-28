@@ -41,9 +41,9 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Debugging TODO List App",
-    status: "WIP Prototype",
-    color: "accentColors.purple",
-    assigned: "Jessica",
+    status: "WIP Steps",
+    color: "accentColors.blue",
+    assigned: "Rafael",
   },
   {
     title: "Learn Recursion by Building a Decimal to Binary Converter",
