@@ -47,8 +47,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Recursion by Building a Decimal to Binary Converter",
-    status: "In Review",
-    color: "accentColors.red",
+    status: "WIP Steps",
+    color: "accentColors.blue",
     assigned: "Kris",
   },
   {
