@@ -70,8 +70,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Functional Programming by Building a Spreadsheet",
-    status: "WIP Steps",
-    color: "accentColors.blue",
+    status: "In Review",
+    color: "accentColors.red",
     assigned: "Naomi",
   },
   {
