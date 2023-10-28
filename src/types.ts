@@ -24,7 +24,8 @@ type Assignees =
   | "Kolade"
   | "Rafael"
   | "Zaira"
-  | "Available to pick up";
+  | "Available to pick up"
+  | "Kolade and Larry";
 
 export type CardLabels = {
   title: string;

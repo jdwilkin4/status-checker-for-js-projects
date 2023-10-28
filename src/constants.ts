@@ -17,22 +17,20 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   {
     title:
       "Learn Basic String and Array Methods by Building a Music Playlist App",
-    status: "WIP Prototype",
-    color: "accentColors.purple",
-    assigned: "Rafael",
+    status: "WIP Steps",
+    color: "accentColors.blue",
+    assigned: "Kolade and Larry",
   },
   {
     title: "Learn the Date Object By Building a Date Formatter",
-    status: "In Review",
-    color: "accentColors.red",
-    assigned: "Joy",
+    status: "Complete",
+    color: "accentColors.green",
   },
   {
     title: "Palindrome Checker",
-    status: "WIP Prototype",
-    color: "accentColors.purple",
+    status: "Complete",
+    color: "accentColors.green",
     isCertification: true,
-    assigned: "Estefania",
   },
   {
     title: "Learn Modern JavaScript Methods by Building Football Team Cards",
@@ -41,9 +39,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Debugging TODO List App",
-    status: "WIP Steps",
-    color: "accentColors.blue",
-    assigned: "Rafael",
+    status: "Complete",
+    color: "accentColors.green",
   },
   {
     title: "Learn Recursion by Building a Decimal to Binary Converter",
@@ -53,10 +50,9 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Roman Numeral Converter",
-    status: "WIP Prototype",
-    color: "accentColors.purple",
+    status: "Complete",
+    color: "accentColors.green",
     isCertification: true,
-    assigned: "Estefania",
   },
   {
     title: "Learn Basic Algorithmic Thinking by Building a Number Sorter",
@@ -70,9 +66,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Functional Programming by Building a Spreadsheet",
-    status: "In Review",
-    color: "accentColors.red",
-    assigned: "Naomi",
+    status: "Complete",
+    color: "accentColors.green",
   },
   {
     title: "Learn Regular Expressions by Building a Spam Filter",
@@ -81,35 +76,31 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Telephone Number Validator",
-    status: "WIP Prototype",
-    color: "accentColors.purple",
+    status: "Complete",
+    color: "accentColors.green",
     isCertification: true,
-    assigned: "Estefania",
   },
   {
-    title:
-      "Learn Data Structures Basic OOP Concepts by Building a Shopping Cart",
+    title: "Learn Basic OOP Concepts by Building a Shopping Cart",
     status: "Complete",
     color: "accentColors.green",
   },
   {
     title: "Learn Intermediate OOP by Building a Platformer Game",
-    status: "WIP Steps",
-    color: "accentColors.blue",
-    assigned: "Jessica",
+    status: "Complete",
+    color: "accentColors.green",
   },
   {
     title: "Learn Intermediate Algorithmic Thinking by Building a Dice Game",
-    status: "WIP Prototype",
-    color: "accentColors.purple",
+    status: "WIP Steps",
+    color: "accentColors.blue",
     assigned: "Joy",
   },
   {
     title: "Cash Register",
-    status: "WIP Prototype",
-    color: "accentColors.purple",
+    status: "Complete",
+    color: "accentColors.green",
     isCertification: true,
-    assigned: "Estefania",
   },
   {
     title: "Learn Fetch and Promises by Building an fCC Authors Page",
@@ -119,16 +110,15 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   {
     title:
       "Learn Intermediate Fetch Promises and Async Await by Building an fCC Forum Leaderboard",
-    status: "In Review",
-    color: "accentColors.red",
+    status: "WIP Steps",
+    color: "accentColors.blue",
     assigned: "Joy",
   },
   {
-    title: "Random Quote Machine",
-    status: "WIP Prototype",
-    color: "accentColors.purple",
+    title: "Pokemon App",
+    status: "Complete",
+    color: "accentColors.green",
     isCertification: true,
-    assigned: "Estefania",
   },
 ];
 
