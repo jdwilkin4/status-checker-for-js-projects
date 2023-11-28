@@ -11,7 +11,7 @@ export const ProjectCard = ({
 }: CardLabels) => {
   return (
     <Flex
-      border={status === "WIP Steps" ? "5px solid red" : "none"}
+      border={status === "In Review" ? "5px solid red" : "none"}
       justifyContent="center"
       direction="column"
       h="200px"
