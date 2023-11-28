@@ -14,5 +14,9 @@ export const getConceptFrequencyCount = (arr: ConceptsArr): Map<any, any> => {
   return map;
 };
 
-export const sortConceptsArr = (arr: ConceptsArr): ConceptsArr =>
-  arr.sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+export const sortConceptsArr = (arr: ConceptsArr): ConceptsArr => {
+  const uniqueArr = new Set(arr);
+  return Array.from(uniqueArr).sort((a, b) =>
+    a.toLowerCase().localeCompare(b.toLowerCase())
+  );
+};

@@ -172,6 +172,8 @@ export const LIST_OF_CONCEPTS_TAUGHT = [
   "document.getElementsByClassName()",
   "document.querySelector()",
   "document.querySelectorAll()",
+  "el.add()",
+  "el.ariaLabel",
   "el.appendChild()",
   "el.children",
   "el.classList",
@@ -206,6 +208,7 @@ export const LIST_OF_CONCEPTS_TAUGHT = [
   "Decrement: --",
   "Destructuring assignment",
   "Division: /",
+  "optional chaining (?.) operator",
   "Exponentiation: **",
   "Greater than or equal: >=",
   "Greater than: >",
@@ -316,4 +319,5 @@ export const LIST_OF_CONCEPTS_TAUGHT = [
   "Math.abs()",
   "getElementsByTagName",
   "console.error",
+  "undefined",
 ] as const;
