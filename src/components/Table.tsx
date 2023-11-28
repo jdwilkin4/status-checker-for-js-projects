@@ -15,10 +15,16 @@ import clsx from "clsx";
 type ConceptsTableProps = {
   caption: string;
   conceptArr: ConceptsArr;
+  currCombinedProjectsArr?: ConceptsArr;
 };
 
-export const ConceptTable = ({ caption, conceptArr }: ConceptsTableProps) => {
-  const frequencyMap = getConceptFrequencyCount(conceptArr);
+export const ConceptTable = ({
+  caption,
+  conceptArr,
+  currCombinedProjectsArr = conceptArr,
+}: ConceptsTableProps) => {
+  const frequencyMap = getConceptFrequencyCount(currCombinedProjectsArr);
+
   return (
     <TableContainer>
       <Table variant="simple">

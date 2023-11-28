@@ -7,6 +7,7 @@ import { ConceptTable } from "./Table";
 type Props = {
   title?: string;
   conceptsArr: ConceptsArr;
+  currCombinedProjectsArr?: ConceptsArr;
   sampleLink?: string;
   userStories?: string;
   PRLink?: string;
@@ -18,6 +19,7 @@ export const ProjectTemplate = ({
   userStories,
   sampleLink,
   PRLink,
+  currCombinedProjectsArr,
 }: Props) => {
   return (
     <Box textAlign="center" color="white" bg="grey">
@@ -53,6 +55,7 @@ export const ProjectTemplate = ({
       )}
 
       <ConceptTable
+        currCombinedProjectsArr={currCombinedProjectsArr}
         conceptArr={conceptsArr}
         caption={`Concepts for ${title}`}
       />

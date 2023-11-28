@@ -320,4 +320,5 @@ export const LIST_OF_CONCEPTS_TAUGHT = [
   "getElementsByTagName",
   "console.error",
   "undefined",
+  "newline",
 ] as const;

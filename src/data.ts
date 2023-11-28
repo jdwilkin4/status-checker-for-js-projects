@@ -5,6 +5,14 @@ const project1Concepts: ConceptsArr = [
   "var",
   "console.log()",
   "<script> with the `src` attribute",
+  "camelCase",
+  "Assignment: =",
+  "arr.shift()",
+  "Logical AND: &&",
+  "Decrement: --",
+  "return statement",
+  "Logical OR: ||",
+  "newline",
   "let",
   "Declaring a variable without initializing it",
   "Initializing with a value (string, number, etc.)",
@@ -47,7 +55,7 @@ const project1Concepts: ConceptsArr = [
 
 export const rpgGameConcepts = sortConceptsArr(project1Concepts);
 
-export const calorieCounter: ConceptsArr = [
+const project2Concepts: ConceptsArr = [
   "const",
   "camelCase",
   "document.getElementById()",
@@ -95,7 +103,11 @@ export const calorieCounter: ConceptsArr = [
   "submit",
 ];
 
-export const musicPlayer: ConceptsArr = [
+export const calorieCounter = sortConceptsArr(project2Concepts);
+
+export const firstTwoProjects = rpgGameConcepts.concat(calorieCounter);
+
+const project3Concepts: ConceptsArr = [
   "const",
   "Assignment: =",
   "document.getElementById()",
@@ -151,6 +163,10 @@ export const musicPlayer: ConceptsArr = [
   "arr.indexOf()",
   "undefined",
 ];
+
+export const musicPlayer = sortConceptsArr(project3Concepts);
+export const firstThreeProjects = firstTwoProjects.concat(musicPlayer);
+
 export const dateFormatter: ConceptsArr = [
   "const",
   "document.getElementById()",

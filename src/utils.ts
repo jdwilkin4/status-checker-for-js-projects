@@ -6,7 +6,7 @@ export const getConceptFrequencyCount = (arr: ConceptsArr): Map<any, any> => {
   for (let concept of arr) {
     if (map.has(concept)) {
       let currentCount = map.get(concept);
-      map.set(concept, currentCount);
+      map.set(concept, currentCount + 1);
     } else {
       map.set(concept, 1);
     }
