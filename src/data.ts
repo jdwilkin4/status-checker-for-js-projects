@@ -1,6 +1,7 @@
 import { ConceptsArr } from "./types";
+import { sortConceptsArr } from "./utils";
 
-export const rpgGameConcepts: ConceptsArr = [
+const project1Concepts: ConceptsArr = [
   "<script> with the `src` attribute",
   "console.log()",
   "var",
@@ -53,6 +54,8 @@ export const rpgGameConcepts: ConceptsArr = [
   "return statement",
   "for loop",
 ];
+
+export const rpgGameConcepts = sortConceptsArr(project1Concepts);
 
 export const calorieCounter: ConceptsArr = [
   "const",
