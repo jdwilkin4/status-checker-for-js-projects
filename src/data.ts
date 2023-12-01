@@ -177,6 +177,7 @@ export const firstThreeProjects = firstTwoProjects.concat(musicPlayer);
 
 const project4Concepts: ConceptsArr = [
   "const",
+  "break",
   "document.getElementById()",
   "Assignment: =",
   "new Date()",
