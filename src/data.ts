@@ -116,6 +116,7 @@ export const firstTwoProjects = rpgGameConcepts.concat(calorieCounter);
 
 const project3Concepts: ConceptsArr = [
   "const",
+  "el.classList",
   "Assignment: =",
   "document.getElementById()",
   "array",
