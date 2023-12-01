@@ -203,7 +203,7 @@ const project4Concepts: ConceptsArr = [
 export const dateFormatter = sortConceptsArr(project4Concepts);
 export const firstFourProjects = firstThreeProjects.concat(dateFormatter);
 
-export const palindromeChecker: ConceptsArr = [
+const project5Concepts: ConceptsArr = [
   "const",
   "document.getElementById()",
   "let",
@@ -233,6 +233,9 @@ export const palindromeChecker: ConceptsArr = [
   "el.classList",
   "el.addEventListener()",
 ];
+
+export const palindromeChecker = sortConceptsArr(project5Concepts);
+export const firstFiveProjects = firstFourProjects.concat(palindromeChecker);
 
 export const footballTeamCards: ConceptsArr = [
   "const",
