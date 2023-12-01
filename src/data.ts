@@ -167,7 +167,7 @@ const project3Concepts: ConceptsArr = [
 export const musicPlayer = sortConceptsArr(project3Concepts);
 export const firstThreeProjects = firstTwoProjects.concat(musicPlayer);
 
-export const dateFormatter: ConceptsArr = [
+const project4Concepts: ConceptsArr = [
   "const",
   "document.getElementById()",
   "Assignment: =",
@@ -190,6 +190,9 @@ export const dateFormatter: ConceptsArr = [
   "arr.join()",
   "Basic object usage ",
 ];
+
+export const dateFormatter = sortConceptsArr(project4Concepts);
+export const firstFourProjects = firstThreeProjects.concat(dateFormatter);
 
 export const palindromeChecker: ConceptsArr = [
   "const",
