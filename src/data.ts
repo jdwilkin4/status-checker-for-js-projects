@@ -3,6 +3,8 @@ import { sortConceptsArr } from "./utils";
 
 const project1Concepts: ConceptsArr = [
   "var",
+  "Single-line comments",
+  "Less than: <",
   "console.log()",
   "<script> with the `src` attribute",
   "camelCase",
