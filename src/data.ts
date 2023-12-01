@@ -59,6 +59,11 @@ export const rpgGameConcepts = sortConceptsArr(project1Concepts);
 
 const project2Concepts: ConceptsArr = [
   "const",
+  "document.querySelector()",
+  "Increment: ++",
+  "Dot notation",
+  "Bracket notation",
+  "if statement",
   "camelCase",
   "document.getElementById()",
   "Assignment: =",
