@@ -7,7 +7,7 @@ const MusicPlayer: NextPage = () => (
     conceptsArr={musicPlayer}
     currCombinedProjectsArr={firstThreeProjects}
     title="Learn Basic String and Array Methods by Building a Music Playlist App"
-    PRLink="https://github.com/freeCodeCamp/freeCodeCamp/pull/52405"
+    PRLink="https://github.com/freeCodeCamp/freeCodeCamp/pull/52487"
   />
 );
 

@@ -50,6 +50,7 @@ const project1Concepts: ConceptsArr = [
   "arr.pop()",
   "Math.floor()",
   "while loop",
+  "Initializing with a value (string, number, etc.)",
   "for loop",
   "arr.indexOf()",
   "Escaped characters: *, \\, etc.",
@@ -101,6 +102,7 @@ const project2Concepts: ConceptsArr = [
   "alert",
   "null",
   "Number()",
+  "Initializing with a value (string, number, etc.)",
   "Compound assignment: +=",
   "Array.from()",
   "el.innerHTML",
@@ -135,6 +137,7 @@ const project3Concepts: ConceptsArr = [
   "optional chaining (?.) operator",
   "Strict inequality: !==",
   "el.add()",
+  "Initializing with a value (string, number, etc.)",
   "invoke function",
   "audio.play()",
   "el.remove()",
@@ -178,6 +181,7 @@ export const firstThreeProjects = firstTwoProjects.concat(musicPlayer);
 const project4Concepts: ConceptsArr = [
   "const",
   "break",
+  "Initializing with a value (string, number, etc.)",
   "document.getElementById()",
   "Assignment: =",
   "new Date()",
@@ -205,6 +209,7 @@ export const firstFourProjects = firstThreeProjects.concat(dateFormatter);
 
 const project5Concepts: ConceptsArr = [
   "const",
+  "Initializing with a value (string, number, etc.)",
   "document.getElementById()",
   "let",
   "Basic string usage (single or double quotes, backticks)",
@@ -237,13 +242,17 @@ const project5Concepts: ConceptsArr = [
 export const palindromeChecker = sortConceptsArr(project5Concepts);
 export const firstFiveProjects = firstFourProjects.concat(palindromeChecker);
 
-export const footballTeamCards: ConceptsArr = [
+const project6Concepts: ConceptsArr = [
   "const",
+  "array",
+  "el.textContent",
+  "Initializing with a value (string, number, etc.)",
   "document.getElementById()",
   "Assignment: =",
   "Basic string usage (single or double quotes, backticks)",
   "Basic object usage ",
   "boolean",
+  "break",
   "Object.freeze()",
   "Dot notation",
   "Destructuring assignment",
@@ -251,6 +260,7 @@ export const footballTeamCards: ConceptsArr = [
   "Default parameters",
   "Arrow function",
   "arr.map()",
+  "arr.join()",
   "Template literal",
   "arr.filter()",
   "Compound assignment: +=",
@@ -264,6 +274,9 @@ export const footballTeamCards: ConceptsArr = [
   "switch",
   "invoke function",
 ];
+
+export const footballTeamCards = sortConceptsArr(project6Concepts);
+export const firstSixProjects = firstFiveProjects.concat(footballTeamCards);
 
 export const todoListApp: ConceptsArr = [];
 export const recursionProject: ConceptsArr = [
