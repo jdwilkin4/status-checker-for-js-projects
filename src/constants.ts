@@ -110,8 +110,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   {
     title:
       "Learn Intermediate Fetch Promises and Async Await by Building an fCC Forum Leaderboard",
-    status: "In Review",
-    color: "accentColors.red",
+    status: "Complete",
+    color: "accentColors.green",
     assigned: "Joy",
   },
   {
