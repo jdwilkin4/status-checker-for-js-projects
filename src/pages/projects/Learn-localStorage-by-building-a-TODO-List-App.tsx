@@ -1,11 +1,12 @@
 import type { NextPage } from "next";
 import { ProjectTemplate } from "../../components/ProjectTemplate";
-import { todoListApp } from "../../data";
+import { todoListApp, firstSevenProjects } from "../../data";
 
 const TodoListApp: NextPage = () => (
   <ProjectTemplate
+    currCombinedProjectsArr={firstSevenProjects}
     conceptsArr={todoListApp}
-    title="Learn Debugging TODO List App"
+    title="Learn localStorage by building a TODO List App"
   />
 );
 
