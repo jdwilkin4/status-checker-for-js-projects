@@ -1,3 +1,4 @@
+import { m } from "framer-motion";
 import { ConceptsArr } from "./types";
 import { sortConceptsArr } from "./utils";
 
@@ -374,36 +375,86 @@ const project8Concepts: ConceptsArr = [
 export const recursionProject = sortConceptsArr(project8Concepts);
 export const firstEightProjects = firstSevenProjects.concat(recursionProject);
 
-export const romanNumeralConverter: ConceptsArr = [];
-export const numberSorter: ConceptsArr = [
+const project9Concepts: ConceptsArr = [
+  "const",
+  "Assignment: =",
+  "document.getElementById()",
+  "Basic string usage (single or double quotes, backticks)",
+  "Arguments / parameters",
+  "Arrow function",
+  "array",
+  "arr.forEach()",
+  "while loop",
+  "Greater than or equal: >=",
+  "Bracket notation",
+  "arr.push()",
+  "Subtraction assignment -=",
+  "arr.join()",
+  "return statement",
+  "let",
+  "Logical NOT: !",
+  "if...else statement",
+  "Logical OR: ||",
+  "str.match()",
+  "Global flag: g",
+  "Greater than: >",
+  "Less than: <",
+  "boolean",
+  "el.innerText",
+  "el.classList",
+  "el.add()",
+  "invoke function",
+  "Declaring a function",
+  "el.remove()",
+  "event.preventDefault()",
+  "el.addEventListener()",
+  "submit",
+  "click",
+  "el.value",
+  "parseInt()",
+];
+
+export const romanNumeralConverter = sortConceptsArr(project9Concepts);
+export const firstNineProjects = firstEightProjects.concat(
+  romanNumeralConverter
+);
+
+const project10Concepts: ConceptsArr = [
   "const",
   "document.getElementById()",
-  "let",
+  "Basic string usage (single or double quotes, backticks)",
+  "Assignment: =",
+  "Arguments / parameters",
+  "event.preventDefault()",
+  "Spread syntax: ...",
   "document.getElementsByClassName()",
   "arr.map()",
-  "Arrow function",
-  "event.preventDefault()",
-  "array",
   "Number()",
-  "el.value",
-  "Spread syntax: ...",
   "arr.sort()",
-  "arr.forEach()",
-  "Template literal",
-  "el.innerText",
-  "Arguments / parameters",
-  "Assignment: =",
-  "for loop",
-  "Increment: ++",
-  "while loop",
-  "Decrement: --",
-  "arr.length",
-  "Greater than: >",
   "return statement",
-  "Greater than or equal: >=",
-  "click",
+  "Declaring a function",
+  "Arrow function",
+  "invoke function",
+  "Default parameters",
+  "arr.forEach()",
+  "el.innerText",
+  "arr.length",
+  "Increment: ++",
+  "for loop",
+  "Less than: <",
+  "Bracket notation",
+  "let",
+  "if statement",
+  "while loop",
+  "Logical AND: &&",
+  "Decrement: --",
   "el.addEventListener()",
+  "click",
 ];
+
+export const numberSorter = sortConceptsArr(project10Concepts);
+export const firstTenProjects = firstNineProjects.concat(numberSorter);
+
 export const statsCalculator: ConceptsArr = [
   "Arrow function",
   "Arguments / parameters",

@@ -1,11 +1,10 @@
 import type { NextPage } from "next";
 import { ProjectTemplate } from "../../components/ProjectTemplate";
-import { romanNumeralConverter } from "../../data";
-import { USER_STORIES } from "../../constants";
+import { romanNumeralConverter, firstNineProjects } from "../../data";
 
 const RomanNumeralConverter: NextPage = () => (
   <ProjectTemplate
-    userStories={USER_STORIES}
+    currCombinedProjectsArr={firstNineProjects}
     conceptsArr={romanNumeralConverter}
     title="Roman Numeral Converter"
   />

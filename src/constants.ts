@@ -19,7 +19,6 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
       "Learn Basic String and Array Methods by Building a Music Playlist App",
     status: "Complete",
     color: "accentColors.green",
-    assigned: "Kolade and Larry",
   },
   {
     title: "Learn the Date Object By Building a Date Formatter",
@@ -44,9 +43,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Recursion by Building a Decimal to Binary Converter",
-    status: "In Review",
-    color: "accentColors.red",
-    assigned: "Kris",
+    status: "Complete",
+    color: "accentColors.green",
   },
   {
     title: "Roman Numeral Converter",
@@ -92,9 +90,8 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
   },
   {
     title: "Learn Intermediate Algorithmic Thinking by Building a Dice Game",
-    status: "WIP Steps",
-    color: "accentColors.blue",
-    assigned: "Joy",
+    status: "Complete",
+    color: "accentColors.green",
   },
   {
     title: "Cash Register",
@@ -112,7 +109,6 @@ export const PROJECT_STATUS_LIST: CardLabels[] = [
       "Learn Asynchronous Programming by Building an fCC Forum Leaderboard",
     status: "Complete",
     color: "accentColors.green",
-    assigned: "Joy",
   },
   {
     title: "Pokemon App",
