@@ -1,4 +1,3 @@
-import { m } from "framer-motion";
 import { ConceptsArr } from "./types";
 import { sortConceptsArr } from "./utils";
 
@@ -55,6 +54,7 @@ const project1Concepts: ConceptsArr = [
   "for loop",
   "arr.indexOf()",
   "Escaped characters: *, \\, etc.",
+  "Code lines end with a semi-colon",
 ];
 
 export const rpgGameConcepts = sortConceptsArr(project1Concepts);
@@ -112,6 +112,7 @@ const project2Concepts: ConceptsArr = [
   "el.addEventListener()",
   "click",
   "submit",
+  "Code lines end with a semi-colon",
 ];
 
 export const calorieCounter = sortConceptsArr(project2Concepts);
@@ -175,6 +176,7 @@ const project3Concepts: ConceptsArr = [
   "Logical OR: ||",
   "arr.indexOf()",
   "undefined",
+  "Code lines end with a semi-colon",
 ];
 
 export const musicPlayer = sortConceptsArr(project3Concepts);
@@ -204,6 +206,7 @@ const project4Concepts: ConceptsArr = [
   "arr.reverse()",
   "arr.join()",
   "Basic object usage ",
+  "Code lines end with a semi-colon",
 ];
 
 export const dateFormatter = sortConceptsArr(project4Concepts);
@@ -239,6 +242,7 @@ const project5Concepts: ConceptsArr = [
   "click",
   "el.classList",
   "el.addEventListener()",
+  "Code lines end with a semi-colon",
 ];
 
 export const palindromeChecker = sortConceptsArr(project5Concepts);
@@ -275,6 +279,7 @@ const project6Concepts: ConceptsArr = [
   "el.value",
   "switch",
   "invoke function",
+  "Code lines end with a semi-colon",
 ];
 
 export const footballTeamCards = sortConceptsArr(project6Concepts);
@@ -329,6 +334,7 @@ const project7Concepts: ConceptsArr = [
   "close()",
   "event.preventDefault()",
   "submit",
+  "Code lines end with a semi-colon",
 ];
 
 export const todoListApp = sortConceptsArr(project7Concepts);
@@ -370,6 +376,7 @@ const project8Concepts: ConceptsArr = [
   "click",
   "keydown",
   "event.key",
+  "Code lines end with a semi-colon",
 ];
 
 export const recursionProject = sortConceptsArr(project8Concepts);
@@ -412,6 +419,7 @@ const project9Concepts: ConceptsArr = [
   "click",
   "el.value",
   "parseInt()",
+  "Code lines end with a semi-colon",
 ];
 
 export const romanNumeralConverter = sortConceptsArr(project9Concepts);
@@ -450,12 +458,13 @@ const project10Concepts: ConceptsArr = [
   "Decrement: --",
   "el.addEventListener()",
   "click",
+  "Code lines end with a semi-colon",
 ];
 
 export const numberSorter = sortConceptsArr(project10Concepts);
 export const firstTenProjects = firstNineProjects.concat(numberSorter);
 
-export const statsCalculator: ConceptsArr = [
+const project11Concepts: ConceptsArr = [
   "Arrow function",
   "Arguments / parameters",
   "arr.reduce()",
@@ -500,31 +509,113 @@ export const statsCalculator: ConceptsArr = [
   "el.addEventListener()",
   "submit",
   "event.preventDefault()",
+  "Code lines end with a semi-colon",
 ];
-export const spreadsheetProject: ConceptsArr = [];
-export const spamFilter: ConceptsArr = [
+
+export const statsCalculator = sortConceptsArr(project11Concepts);
+export const firstElevenProjects = firstTenProjects.concat(statsCalculator);
+
+const project12Concepts: ConceptsArr = [
   "const",
-  "document.getElementById()",
-  "Match characters in a range: a-z, 0-9, etc.",
-  "array",
-  "Case insensitivity flag: i",
   "Assignment: =",
+  "Basic object usage ",
+  "Basic string usage (single or double quotes, backticks)",
+  "Arrow function",
+  "Arguments / parameters",
+  "str.replace()",
+  "Bracket notation",
+  "parseFloat()",
+  "return statement",
+  "Match any digit: d",
+  "Quantifier: + (matches the preceding item 1 or more times)",
+  "Quantifier: * (matches the preceding item 0 or more times)",
+  "invoke function",
+  "Declaring a function",
+  "Ternary operator",
+  "Remainder / modulo: %",
+  "arr.reduce()",
+  "arr.length",
+  "arr.slice()",
+  "arr.sort()",
+  "Math.ceil()",
+  "arr.filter()",
+  "arr.some()",
+  "arr.every()",
+  "arr.includes()",
+  "arr.map()",
+  "Math.floor()",
+  "Math.random()",
+  "new Set()",
+  "Case insensitivity flag: i",
+  "str.split()",
+  "str.toLowerCase()",
+  "obj.hasOwnProperty()",
+  "arr.fill()",
+  "str.charCodeAt()",
+  "String.fromCharCode",
+  "arr.find()",
+  "el.value",
+  "parseInt()",
   "Global flag: g",
+  "currying",
+  "str.toUpperCase()",
+  "Strict equality: ===",
+  "window.onload",
+  "document.getElementById()",
+  "el.className",
+  "el.textContent",
+  "el.appendChild()",
+  "arr.forEach()",
+  "document.createElement()",
+  "el.onchange",
+  "el.id",
+  "el.ariaLabel",
+  "event.target (value, id, etc.)",
+  "Logical NOT: !",
+  "Logical AND: &&",
+  "str.startsWith()",
+  "el.children",
+  "Code lines end with a semi-colon",
+];
+
+export const spreadsheetProject = sortConceptsArr(project12Concepts);
+export const firstTwelveProjects =
+  firstElevenProjects.concat(spreadsheetProject);
+
+const project13Concepts: ConceptsArr = [
+  "const",
+  "Assignment: =",
+  "document.getElementById()",
+  "Basic string usage (single or double quotes, backticks)",
+  "Match characters in a range: a-z, 0-9, etc.",
+  "Case insensitivity flag: i",
+  "Quantifier: + (matches the preceding item 1 or more times)",
+  "End of input assertion: $",
+  "Quantifier: ? (matches the preceding token 0 or 1 times)",
+  "Non-capturing group: (?:x)",
+  "array",
   "Arrow function",
   "Arguments / parameters",
   "arr.some()",
   "regex.test()",
-  "boolean",
+  "Strict equality: ===",
+  "el.value",
+  "if statement",
+  "return statement",
+  "alert",
   "el.addEventListener()",
   "click",
-  "if statement",
-  "alert",
-  "Strict equality: ===",
-  "Basic string usage (single or double quotes, backticks)",
-  "return statement",
-  "Ternary operator",
   "el.textContent",
+  "invoke function",
+  "Declaring a function",
+  "el.value",
+  "Ternary operator",
+  "Code lines end with a semi-colon",
 ];
+
+export const spamFilter = sortConceptsArr(project13Concepts);
+export const firstThirteenProjects = firstTwelveProjects.concat(spamFilter);
+
 export const telephoneValidator: ConceptsArr = [];
 export const shoppingCart: ConceptsArr = [
   "const",
